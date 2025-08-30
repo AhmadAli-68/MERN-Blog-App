@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar {
-  display: hidden;
+  display: none;
 }
 
 @theme {
