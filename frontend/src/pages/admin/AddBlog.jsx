@@ -116,7 +116,7 @@ const AddBlog = () => {
                     <div ref={editorRef}></div>
 
                     {loading && (
-                        <div className='absolute top-0 bottom-0 right-0 left-0 flex items-center justify-center'>
+                        <div className='absolute top-0 bottom-0 right-0 left-0 flex items-center justify-center bg-black/10 mt-2'>
                             <div className='w-8 h-8 rounded-full border-2 border-t-white animate-spin'></div>
                         </div>
                     )}
