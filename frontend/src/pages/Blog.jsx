@@ -97,7 +97,7 @@ const Blog = () => {
                     <div className='flex flex-col gap-4'>
                         {comments.map((item, index) => (
                             <div
-                                className='relative bg-primary/2 border border-primary/5 max-w-xl p-4 text-gray-600'
+                                className='relative bg-primary/2 border border-primary/5 max-w-xl p-4 text-gray-600 rounded'
                                 key={index}>
                                 <div className='flex items-center gap-2 mb-2'>
                                     <img src={assets.user_icon} alt="user" className='w-6' />
